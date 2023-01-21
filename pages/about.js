@@ -1,5 +1,6 @@
+
 export default function About() {
     return(
-        <div>About Page</div>
+        <div class="about__page">About Page</div>
     )
 }

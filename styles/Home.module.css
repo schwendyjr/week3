@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: #2B50AA;
 }
 
 .description {
@@ -44,6 +45,13 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
+  font-family: monospace;
+  font-size: larger;
+  background-color: #FF858D;
+  border-radius: 5px;
+  text-align: left;
+
+ 
 }
 
 .card {
@@ -70,6 +78,7 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+  background-color: #7F7B82;
 }
 
 .center {
@@ -78,6 +87,7 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  
 }
 
 .center::before {
